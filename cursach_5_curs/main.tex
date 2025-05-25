@@ -1,0 +1,40 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T2A]{fontenc}      % русские буквы в выходном файле
+\usepackage[utf8]{inputenc}    % кодировка исходного файла
+\usepackage[russian]{babel}    % переносы и настроки под русский язык
+\usepackage{graphicx}          % для вставки логотипа
+\usepackage{geometry}
+\geometry{
+  left=2cm, right=2cm,
+  top=2cm, bottom=2cm
+}
+
+\begin{document}
+\begin{titlepage}
+  \centering
+  % Логотип МГУ (замените файл и путь при необходимости)
+  \vspace*{1cm}
+  \includegraphics[width=0.3\textwidth]{logo_msu.png}\\[1cm]
+
+  % Название университета
+  {\large \textbf{Московский государственный университет имени М.\,В.~Ломоносова}}\\[0.5cm]
+  {\large \textbf{Физический факультет}}\\[2cm]
+
+  % Название работы
+  {\LARGE \textbf{«Заголовок вашей статьи на русском языке»}}\\[2cm]
+
+  % Авторские данные
+  {\large Студент(ка): Иванов Иван Иванович}\\[0.3cm]
+  {\large Группа: ФИ-12-01}\\[0.3cm]
+  {\large Научный руководитель: \\[0.1cm]
+    д.\,ф.-м.\,н.\,Петров Пётр Петрович, \\[0.1cm]
+    доцент кафедры общей физики}\\[2cm]
+
+  % Город и год
+  {\large Москва, 2025}\\
+\end{titlepage}
+
+% Здесь начинается само содержание статьи
+\section*{Аннотация}
+% Ваш текст...
+\end{document}
